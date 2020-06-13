@@ -1,0 +1,98 @@
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Service.deps.json
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Service.dll
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CoreCompileInputs.cache
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfoInputs.cache
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfo.cs
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.dll
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Data.dll
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb
+C:/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp2.2/Data.pdb
+C:/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CopyComplete
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.deps.json
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CoreCompileInputs.cache
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfoInputs.cache
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfo.cs
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CopyComplete
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_ASASAAS_SVYAZ/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.deps.json
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.pdb
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CoreCompileInputs.cache
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfoInputs.cache
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfo.cs
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CopyComplete
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.dll
+C:/Users/ExpandFlow - Dados/Desktop/Odoo_11062020/Develop/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.deps.json
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.dll
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.dll
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.pdb
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CoreCompileInputs.cache
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfoInputs.cache
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfo.cs
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CopyComplete
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.dll
+/home/guilherme/Área de Trabalho/Odoo_11062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.deps.json
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.dll
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.dll
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/bin/Debug/netcoreapp2.2/Data.pdb
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CoreCompileInputs.cache
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfoInputs.cache
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfo.cs
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.csproj.CopyComplete
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.dll
+/home/guilherme/Área de Trabalho/odoo_12062020/Svyaz/src/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Service.deps.json
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Service.dll
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Service.pdb
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Data.dll
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\bin\Debug\netcoreapp2.2\Data.pdb
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csprojAssemblyReference.cache
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CoreCompileInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfoInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.dll
+C:\Users\ExpandFlow - Dados\Desktop\Odoo_12062020\master\src\Api.Service\obj\Debug\netcoreapp2.2\Service.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Service.deps.json
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Service.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Service.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Data.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\bin\Debug\netcoreapp2.2\Data.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csprojAssemblyReference.cache
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CoreCompileInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfoInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.Service\obj\Debug\netcoreapp2.2\Service.pdb

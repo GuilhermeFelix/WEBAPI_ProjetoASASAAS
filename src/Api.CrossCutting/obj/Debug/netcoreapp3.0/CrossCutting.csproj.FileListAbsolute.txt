@@ -1,0 +1,16 @@
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\CrossCutting.deps.json
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\CrossCutting.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\CrossCutting.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\Data.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\Domain.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\Service.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\Service.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\bin\Debug\netcoreapp3.0\Data.pdb
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.csprojAssemblyReference.cache
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.AssemblyInfo.cs
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.csproj.CopyComplete
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.dll
+C:\Users\ExpandFlow - Dados\Desktop\OdooApeninos13062020\apeninos\src\Api.CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.pdb

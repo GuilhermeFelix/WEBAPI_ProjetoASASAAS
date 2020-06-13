@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d0hBsk5qufNFkJz81BX7B2oenbxSYmfwvkq1biGBP5adRs5SiHHCR6mljP1Y9JWfSe/yDrkh6+DnC7Q9eDveZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
