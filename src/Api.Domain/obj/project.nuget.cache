@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0hBsk5qufNFkJz81BX7B2oenbxSYmfwvkq1biGBP5adRs5SiHHCR6mljP1Y9JWfSe/yDrkh6+DnC7Q9eDveZw==",
+  "dgSpecHash": "XBoiU591Dg2wvEIhYNFBGN8kD0dk9j+g3lzmjvydH9TBglY/QMFlq8TM0DC3tJDiPlmORulSN8KOV4Z+Sf8oxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
