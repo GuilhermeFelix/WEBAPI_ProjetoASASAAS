@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
 using Api.Domain.Interfaces.Services.Manager;
-using Api.Service.Services.Server;
 using Api.Service.Services.Odoo.Configuration.New.CRM;
 using Api.Service.Services.Odoo.Configuration.New.Faturamento;
 using Api.Service.Services.Odoo.Configuration.New.Site;
@@ -59,7 +58,6 @@ namespace Api.Service.Services
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
 
-                Network networkopenport = new Network(manager.Crm_PORT, IPAddress.Parse(manager.Crm_IPV4));
 
                 NewcomposeCRM newcomposeCRM = new NewcomposeCRM(manager.Email.ToString(),
                                             manager.Crm_PORT.ToString(),
@@ -144,10 +142,6 @@ namespace Api.Service.Services
                 //Odoo Configuration (Logfile & Conf)
                 NewconfigurationCRM newconfigurationCRM = new NewconfigurationCRM(manager.Email.ToString(), manager.Crm_TAG);
 
-                //Check and get the valid port
-                Network networkopenport = new Network(manager.Crm_PORT, IPAddress.Parse(manager.Crm_IPV4));
-                manager.Crm_PORT = networkopenport.scan_openports();
-
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeCRM newcomposeCRM = new NewcomposeCRM(manager.Email.ToString(),
@@ -167,10 +161,6 @@ namespace Api.Service.Services
                 //New LAUNCH TO FATURAMENTO MODULE
                 //Odoo Configuration (Logfile & Conf)
                 NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.Faturamento_TAG);
-
-                //Check and get the valid port
-                Network networkopenport = new Network(manager.Faturamento_PORT, IPAddress.Parse(manager.Faturamento_IPV4));
-                manager.Faturamento_PORT = networkopenport.scan_openports();
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
@@ -192,9 +182,6 @@ namespace Api.Service.Services
                 //Odoo Configuration (Logfile & Conf)
                 NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.Site_TAG);
 
-                //Check and get the valid port
-                Network networkopenport = new Network(manager.Site_PORT, IPAddress.Parse(manager.Site_IPV4));
-                manager.Site_PORT = networkopenport.scan_openports();
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
@@ -214,10 +201,6 @@ namespace Api.Service.Services
                 //New LAUNCH TO VENDAS MODULE
                 //Odoo Configuration (Logfile & Conf)
                 NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.Vendas_TAG);
-
-                //Check and get the valid port
-                Network networkopenport = new Network(manager.Vendas_PORT, IPAddress.Parse(manager.Vendas_IPV4));
-                manager.Vendas_PORT = networkopenport.scan_openports();
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
