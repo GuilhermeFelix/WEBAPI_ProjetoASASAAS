@@ -1,37 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj": {}
+    "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj": {
+    "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\obj\\",
+        "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/Data.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ExpandFlow - Dados\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj"
+              "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj"
               }
             }
           }
@@ -45,13 +43,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.0-preview.5.20278.2, )"
-            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.0-preview5, )"
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -69,31 +63,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj": {
+    "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\obj\\",
+        "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ExpandFlow - Dados\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     }

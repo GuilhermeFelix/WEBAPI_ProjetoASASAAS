@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XBoiU591Dg2wvEIhYNFBGN8kD0dk9j+g3lzmjvydH9TBglY/QMFlq8TM0DC3tJDiPlmORulSN8KOV4Z+Sf8oxQ==",
+  "dgSpecHash": "sv528vVSeYvMvRFmOKqfvTgZqzNbAHnWiMMGw9qhCvJYfRpOB+kps3GxdK7CyThZrPW/xZHI2ApBDCb29+v+TA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
