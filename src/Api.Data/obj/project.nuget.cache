@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u4YVDzHSgChXMqTzf//ZdUeqKKB3vTVgxodSDffWzMTn6AfJYp5cXTlbNitXGldyTG32cOTRvGwtmGeS8qgFtg==",
+  "dgSpecHash": "2Kg/t2sSGQWpPQyjvm83nPwuX8KNpsVdQoRLKVgy1+shLS2XyNwcpvbipU8QXabWficgdP/prXDBmI6SJ4zZ5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.0-preview3.20122.2\\microsoft.data.sqlclient.2.0.0-preview3.20122.2.nupkg.sha512",

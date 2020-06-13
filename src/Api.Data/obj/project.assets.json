@@ -1554,7 +1554,7 @@
       },
       "Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -5856,11 +5856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Data\\Data.csproj",
+      "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Data\\obj\\",
+      "outputPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5879,8 +5879,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\OdooApeninos13062020\\apeninos\\src\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\Subirnogit1306\\WEBAPI_ProjetoASASAAS\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

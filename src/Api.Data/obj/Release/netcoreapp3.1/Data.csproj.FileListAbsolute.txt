@@ -1,0 +1,12 @@
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\bin\Release\netcoreapp3.1\Data.deps.json
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\bin\Release\netcoreapp3.1\Data.dll
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\bin\Release\netcoreapp3.1\Data.pdb
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\bin\Release\netcoreapp3.1\Domain.dll
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\bin\Release\netcoreapp3.1\Domain.pdb
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.dll
+C:\Users\ExpandFlow - Dados\Desktop\Subirnogit1306\WEBAPI_ProjetoASASAAS\src\Api.Data\obj\Release\netcoreapp3.1\Data.pdb
