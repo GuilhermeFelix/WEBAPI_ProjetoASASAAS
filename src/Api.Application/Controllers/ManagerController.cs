@@ -104,39 +104,39 @@ namespace Api.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
-        /// <summary>
-        /// PUT a new SAAS
-        /// </summary>
-        /// <returns>NOVA IMAGEM SAAS NA INSTANCIA MASTER</returns>
-        /// <response code="200">Inserido o SAAS no Banco</response>
-        /// <response code="400">ERRO NA REQUISIÇÃO!</response>
-        /// <response code="500">ERRO DE CONEXÃO COM BD!</response>
-        [HttpPut]
-        public async Task<ActionResult> Put([FromBody] ManagerEntity manager)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        // / <summary>
+        // / PUT a new SAAS
+        // / </summary>
+        // / <returns>NOVA IMAGEM SAAS NA INSTANCIA MASTER</returns>
+        // / <response code="200">Inserido o SAAS no Banco</response>
+        // / <response code="400">ERRO NA REQUISIÇÃO!</response>
+        // / <response code="500">ERRO DE CONEXÃO COM BD!</response>
+        // [HttpPut]
+        // public async Task<ActionResult> Put([FromBody] ManagerEntity manager)
+        // {
+        //     if (!ModelState.IsValid)
+        //     {
+        //         return BadRequest(ModelState);
+        //     }
 
-            try
-            {
-                var result = await _service.Put(manager);
-                if (result != null)
-                {
-                    return Ok(result);
-                }
-                else
-                {
-                    return BadRequest();
-                }
+        //     try
+        //     {
+        //         var result = await _service.Put(manager);
+        //         if (result != null)
+        //         {
+        //             return Ok(result);
+        //         }
+        //         else
+        //         {
+        //             return BadRequest();
+        //         }
 
-            }
-            catch (ArgumentException e)
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
-            }
-        }
+        //     }
+        //     catch (ArgumentException e)
+        //     {
+        //         return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+        //     }
+        // }
 
         /// <summary>
         /// Delete a specific SAAS

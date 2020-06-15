@@ -31,15 +31,6 @@
             <response code="400">ERRO NA REQUISIÇÃO!</response>
             <response code="500">ERRO DE CONEXÃO COM BD!</response>
         </member>
-        <member name="M:Api.Application.Controllers.ManagerController.Put(Api.Domain.Entities.ManagerEntity)">
-            <summary>
-            PUT a new SAAS
-            </summary>
-            <returns>NOVA IMAGEM SAAS NA INSTANCIA MASTER</returns>
-            <response code="200">Inserido o SAAS no Banco</response>
-            <response code="400">ERRO NA REQUISIÇÃO!</response>
-            <response code="500">ERRO DE CONEXÃO COM BD!</response>
-        </member>
         <member name="M:Api.Application.Controllers.ManagerController.Delete(System.Guid)">
             <summary>
             Delete a specific SAAS

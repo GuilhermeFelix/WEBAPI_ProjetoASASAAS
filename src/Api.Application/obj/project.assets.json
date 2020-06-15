@@ -1585,7 +1585,6 @@
       "path": "runtime.native.system/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1755,7 +1754,6 @@
       "path": "system.collections/4.0.11",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1938,7 +1936,6 @@
       "path": "system.diagnostics.debug/4.0.11",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2102,7 +2099,6 @@
       "path": "system.globalization/4.0.11",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2250,7 +2246,6 @@
       "path": "system.io.filesystem/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2288,7 +2283,6 @@
       "path": "system.io.filesystem.primitives/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2327,7 +2321,6 @@
       "path": "system.linq/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2710,7 +2703,6 @@
       "path": "system.reflection.emit.lightweight/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -2743,7 +2735,6 @@
       "path": "system.reflection.extensions/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2856,7 +2847,6 @@
       "path": "system.reflection.typeextensions/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2910,7 +2900,6 @@
       "path": "system.resources.resourcemanager/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3083,7 +3072,6 @@
       "path": "system.runtime.extensions/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3164,7 +3152,6 @@
       "path": "system.runtime.handles/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3202,7 +3189,6 @@
       "path": "system.runtime.interopservices/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3392,7 +3378,6 @@
       "path": "system.threading/4.0.11",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3555,41 +3540,43 @@
     ]
   },
   "packageFolders": {
-    "/home/guilherme/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/Application.csproj",
-      "packagesPath": "/home/guilherme/.nuget/packages/",
-      "outputPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/obj/",
+      "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/guilherme/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ExpandFlow - Dados\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.CrossCutting/CrossCutting.csproj": {
-              "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.CrossCutting/CrossCutting.csproj"
+            "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.CrossCutting\\CrossCutting.csproj"
             },
-            "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj": {
-              "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj"
+            "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\Domain.csproj"
             },
-            "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/Service.csproj": {
-              "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/Service.csproj"
+            "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Service\\Service.csproj"
             }
           }
         }
@@ -3630,7 +3617,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

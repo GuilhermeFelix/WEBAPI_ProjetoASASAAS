@@ -8,28 +8,30 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/obj/",
+      "projectPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\ExpandFlow - Dados\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ExpandFlow - Dados\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

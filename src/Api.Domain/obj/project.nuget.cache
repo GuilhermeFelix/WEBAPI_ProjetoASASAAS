@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e1ptS/dQiIQ6xf6VjlnexrrAQ6SxVE/p44JneNqWThXGz7X3w0yzwDx8b4LiTah8ORTLy2siCWy0m8j30Ff4qg==",
+  "dgSpecHash": "soNLQ04E/3kT8SP4v+Pn3rUDe/PIv3VKalxgaKTsUrj4o/6vGiqdGiEK/cqD9KfBqXMrJlHbilAUypBinCr2Yw==",
   "success": true,
-  "projectFilePath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj",
+  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
