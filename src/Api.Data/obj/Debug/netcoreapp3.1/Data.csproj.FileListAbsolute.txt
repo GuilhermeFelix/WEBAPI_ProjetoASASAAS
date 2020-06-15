@@ -34,3 +34,15 @@ C:/Users/ExpandFlow - Dados/Desktop/Subirnogit1306/WEBAPI_ProjetoASASAAS/src/Api
 /home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete
 /home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/obj/Debug/netcoreapp3.1/Data.dll
 /home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/obj/Debug/netcoreapp3.1/Data.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Data.deps.json
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Data.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Data.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csprojAssemblyReference.cache
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfoInputs.cache
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfo.cs
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CoreCompileInputs.cache
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.pdb

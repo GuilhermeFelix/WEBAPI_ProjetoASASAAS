@@ -1,6 +1,8 @@
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Threading;
+using Api.Service.Services.Odoo.Docker.Delete.CRM;
 
 namespace Api.Service.Services.Odoo.Docker.Launch.Faturamento
 {
@@ -13,17 +15,20 @@ namespace Api.Service.Services.Odoo.Docker.Launch.Faturamento
         private string customerTag;
         public NewlaunchFaturamento(string CustomerEmail, string CustomerTag)
         {
-            this.customerEmail = CustomerEmail;
+            this.customerEmail = ((CustomerEmail.Replace("-", "0")).Replace("_", "-").Replace(".", "-")).Replace("@", "-");
             this.customerTag = CustomerTag;
             NewSAAS();
         }
 
         private void NewSAAS()
         {
-            configPath = Path.GetFullPath(basePath).Substring(0, 5) + @"/" + customerEmail + @"/FATURAMENTO/" + customerEmail + "_" + customerTag;
+
+            //script para executar uma nova instancia
+            configPath = Path.GetFullPath(basePath).Substring(0, 5) + @"/" + customerEmail + @"/Faturamento/" + customerEmail + "_" + customerTag;
+
             System.IO.Directory.CreateDirectory(configPath);
 
-            nomeArquivo = configPath + @"/odoo11_install" + ".sh";
+            nomeArquivo = configPath + @"/odoo11_install.sh";
             StreamWriter writer = new StreamWriter(nomeArquivo);
             writer.WriteLine("#!/bin/bash");
             writer.WriteLine(":" + char.ConvertFromUtf32(0x0027));
@@ -37,18 +42,38 @@ namespace Api.Service.Services.Odoo.Docker.Launch.Faturamento
             writer.WriteLine("docker-compose up");
             writer.Close();
 
-            var myBatchFile = nomeArquivo; //Path to shell script file
-            var argss = $"{myBatchFile}";
+            //new Thread(new ThreadStart(opensh)).Start();
+            opensh();
 
-            var processInfo = new ProcessStartInfo();
-            processInfo.UseShellExecute = false;
 
-            processInfo.FileName = "sh";
-            processInfo.Arguments = argss;    // The Script name 
+            //Create Scripts to Delete in future
+            NewdeleteFaturamento newdeleteFaturamento = new NewdeleteFaturamento(customerEmail, customerTag);
 
-            Process process = Process.Start(processInfo);   // Start that process.
-            var outPut = process.StandardOutput.ReadToEnd();
-            process.WaitForExit();
         }
+
+        public void opensh()
+        {
+            try
+            {
+                var myBatchFile = nomeArquivo; //Path to shell script file
+                var argss = $"{myBatchFile}";
+
+                var processInfo = new ProcessStartInfo();
+                processInfo.UseShellExecute = true;
+
+                processInfo.FileName = "sh";
+                processInfo.Arguments = argss;    // The Script name 
+
+                Process process = Process.Start(processInfo);   // Start that process.
+                var outPut = process.StandardOutput.ReadToEnd();
+                process.WaitForExit();
+            }
+            catch (Exception error)
+            {
+                var texto = error;
+            }
+
+        }
+
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sv528vVSeYvMvRFmOKqfvTgZqzNbAHnWiMMGw9qhCvJYfRpOB+kps3GxdK7CyThZrPW/xZHI2ApBDCb29+v+TA==",
+  "dgSpecHash": "bUuKJRNRQuKbmwof7dJSA/V1gohGDkjBxyAoqMc7l+/kzoV1Q7BNZCytWiGQcDOygo9XizMZYUH7ow/usLxfVg==",
   "success": true,
-  "projectFilePath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj",
+  "projectFilePath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

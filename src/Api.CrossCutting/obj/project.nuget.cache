@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dT6tc92S3MQYR+nmwWmHxxW09fzN2deY80YeDBpeqRrjtpz7/pNTsJdplKCJd43sZnF12zQ4rBuMDUhL9rRn6w==",
+  "dgSpecHash": "WUQX9kzfAAeXKH2oZfx+7NMGGw8DPlvRUL1tgsutEwaSiG5SzoVCjceCkArQmM8IBMCZtNTjaVbbnuuWYvkY1A==",
   "success": true,
-  "projectFilePath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.CrossCutting/CrossCutting.csproj",
+  "projectFilePath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
     "/home/guilherme/.nuget/packages/automapper/8.1.1/automapper.8.1.1.nupkg.sha512",
     "/home/guilherme/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/6.1.1/automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

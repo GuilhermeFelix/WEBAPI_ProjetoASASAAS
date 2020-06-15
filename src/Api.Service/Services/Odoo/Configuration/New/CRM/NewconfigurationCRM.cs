@@ -15,7 +15,8 @@ namespace Api.Service.Services.Odoo.Configuration.New.CRM
 
         public NewconfigurationCRM(string CustomerEmail, string CustomerTag)
         {
-            this.customerEmail = CustomerEmail;
+
+            this.customerEmail = ((CustomerEmail.Replace("-", "0")).Replace("_", "-").Replace(".", "-")).Replace("@", "-");
             this.customerTag = CustomerTag;
             //Odoo.conf
             Newodooconf();

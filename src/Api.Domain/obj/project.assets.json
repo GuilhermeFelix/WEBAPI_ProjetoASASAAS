@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj",
+      "projectUniqueName": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj",
+      "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj",
       "packagesPath": "/home/guilherme/.nuget/packages/",
-      "outputPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/obj/",
+      "outputPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

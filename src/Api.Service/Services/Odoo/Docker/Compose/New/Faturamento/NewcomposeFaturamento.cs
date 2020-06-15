@@ -13,7 +13,7 @@ namespace Api.Service.Services.Odoo.Docker.Compose.New.Faturamento
         private string customerTag;
         public NewcomposeFaturamento(string CustomerEmail, string OdooPort, string DockerImage, string CustomerTag)
         {
-            this.customerEmail = CustomerEmail;
+            this.customerEmail = ((CustomerEmail.Replace("-", "0")).Replace("_", "-").Replace(".", "-")).Replace("@", "-");
             this.odooPort = ("- " + char.ConvertFromUtf32(0x0022) + OdooPort + ":8069" + char.ConvertFromUtf32(0x0022));
             this.customerTag = CustomerTag;
             this.dockerimage = DockerImage;

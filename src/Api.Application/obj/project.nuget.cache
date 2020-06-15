@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zSky0kVegf2DOeDwFAe93RkrHfQm6uz6VrOecjM/sH33NvMgmjsqIXOg42jUW27VgMW1yr2B3dtrQ0ggfO1UQA==",
+  "dgSpecHash": "OiHTluBXeR8mHWPSoO5Ru8SletQBUI109RTHz0C8UoKkhX0XDvYvyWSlsSEgsCSxVMsB1IkQDewIpjpeD7YMsQ==",
   "success": true,
-  "projectFilePath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Application/Application.csproj",
+  "projectFilePath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/guilherme/.nuget/packages/automapper/8.1.1/automapper.8.1.1.nupkg.sha512",
     "/home/guilherme/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/6.1.1/automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

@@ -40,3 +40,17 @@ C:/Users/ExpandFlow - Dados/Desktop/Subirnogit1306/WEBAPI_ProjetoASASAAS/src/Api
 /home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
 /home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
 /home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Service.deps.json
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Service.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Service.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Data.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Domain.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/bin/Debug/netcoreapp3.1/Data.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csprojAssemblyReference.cache
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb

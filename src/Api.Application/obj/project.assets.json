@@ -3561,11 +3561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Application/Application.csproj",
+      "projectUniqueName": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Application/Application.csproj",
+      "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/Application.csproj",
       "packagesPath": "/home/guilherme/.nuget/packages/",
-      "outputPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Application/obj/",
+      "outputPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Application/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -3582,14 +3582,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.CrossCutting/CrossCutting.csproj": {
-              "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.CrossCutting/CrossCutting.csproj"
+            "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.CrossCutting/CrossCutting.csproj": {
+              "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.CrossCutting/CrossCutting.csproj"
             },
-            "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj": {
-              "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Domain/Domain.csproj"
+            "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj": {
+              "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Domain/Domain.csproj"
             },
-            "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Service/Service.csproj": {
-              "projectPath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Service/Service.csproj"
+            "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/Service.csproj": {
+              "projectPath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Service/Service.csproj"
             }
           }
         }

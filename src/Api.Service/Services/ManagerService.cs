@@ -17,6 +17,7 @@ using Api.Service.Services.Odoo.Docker.Launch.Faturamento;
 using Api.Service.Services.Odoo.Docker.Launch.Site;
 using Api.Service.Services.Odoo.Docker.Launch.Vendas;
 using System.Net;
+using Api.Service.Services.Odoo.Docker.Delete;
 
 namespace Api.Service.Services
 {
@@ -31,6 +32,9 @@ namespace Api.Service.Services
         }
         public async Task<bool> Delete(Guid id)
         {
+            var instancia = await _repository2.SelectAsync(id);
+            var tag = instancia.Crm_TAG; //Alterar no BD As 4 tags para apenas uma.
+            StartDeleteSAAS deleteSAAS = new StartDeleteSAAS(instancia.Email, tag);
             return await _repository2.DeleteAsync(id);
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xpQf0r2WNIUY5nCMiWdB3hxljewyKgmA0bRIoZE0dddid73+FeB7075uUVQhYMHX54Gff9S9u0/p3e0MtzvBpw==",
+  "dgSpecHash": "hg2zSyjAkM0Hc5co82zEc8L/HuaEdE7QZwZl1eUtaaXnue30ZAlmmr2nve175dtyeMVfTOq3STKrNuyYLay22w==",
   "success": true,
-  "projectFilePath": "/home/guilherme/Área de Trabalho/Odoo_developer_13062020/WEBAPI_ProjetoASASAAS/src/Api.Data/Data.csproj",
+  "projectFilePath": "/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/Data.csproj",
   "expectedPackageFiles": [
     "/home/guilherme/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/guilherme/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

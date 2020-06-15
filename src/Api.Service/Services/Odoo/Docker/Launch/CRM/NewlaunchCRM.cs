@@ -2,6 +2,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
+using Api.Service.Services.Odoo.Docker.Delete.CRM;
 
 namespace Api.Service.Services.Odoo.Docker.Launch.CRM
 {
@@ -14,13 +15,15 @@ namespace Api.Service.Services.Odoo.Docker.Launch.CRM
         private string customerTag;
         public NewlaunchCRM(string CustomerEmail, string CustomerTag)
         {
-            this.customerEmail = CustomerEmail;
+            this.customerEmail = ((CustomerEmail.Replace("-", "0")).Replace("_", "-").Replace(".", "-")).Replace("@", "-");
             this.customerTag = CustomerTag;
             NewSAAS();
         }
 
         private void NewSAAS()
         {
+
+            //script para executar uma nova instancia
             configPath = Path.GetFullPath(basePath).Substring(0, 5) + @"/" + customerEmail + @"/CRM/" + customerEmail + "_" + customerTag;
 
             System.IO.Directory.CreateDirectory(configPath);
@@ -41,6 +44,11 @@ namespace Api.Service.Services.Odoo.Docker.Launch.CRM
 
             //new Thread(new ThreadStart(opensh)).Start();
             opensh();
+
+
+            //Create Scripts to Delete in future
+            NewdeleteCRM newdeleteCRM = new NewdeleteCRM(customerEmail, customerTag);
+
         }
 
         public void opensh()
