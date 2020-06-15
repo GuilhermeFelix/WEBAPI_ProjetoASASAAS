@@ -46,3 +46,6 @@ C:/Users/ExpandFlow - Dados/Desktop/Subirnogit1306/WEBAPI_ProjetoASASAAS/src/Api
 /home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete
 /home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.dll
 /home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.pdb
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.json
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.dev.json
+/home/guilherme/Área de Trabalho/Devops_15062020/master/src/Api.Data/obj/Debug/netcoreapp3.1/Data.genruntimeconfig.cache

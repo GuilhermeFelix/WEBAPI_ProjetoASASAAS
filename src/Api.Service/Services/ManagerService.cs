@@ -33,8 +33,7 @@ namespace Api.Service.Services
         public async Task<bool> Delete(Guid id)
         {
             var instancia = await _repository2.SelectAsync(id);
-            var tag = instancia.Crm_TAG; //Alterar no BD As 4 tags para apenas uma.
-            StartDeleteSAAS deleteSAAS = new StartDeleteSAAS(instancia.Email, tag);
+            StartDeleteSAAS deleteSAAS = new StartDeleteSAAS(instancia.Email, instancia.TAG);
             return await _repository2.DeleteAsync(id);
         }
 
@@ -58,17 +57,17 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO CRM MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationCRM newconfigurationCRM = new NewconfigurationCRM(manager.Email.ToString(), manager.Crm_TAG);
+                NewconfigurationCRM newconfigurationCRM = new NewconfigurationCRM(manager.Email.ToString(), manager.TAG);
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
 
 
                 NewcomposeCRM newcomposeCRM = new NewcomposeCRM(manager.Email.ToString(),
-                                            manager.Crm_PORT.ToString(),
+                                            manager.PORT.ToString(),
                                             "apeninos/asasaas_odoo:version11.0",
-                                            manager.Crm_TAG);
+                                            manager.TAG);
                 //New Launch
-                NewlaunchCRM newlaunchCRM = new NewlaunchCRM(manager.Email.ToString(), manager.Crm_TAG);
+                NewlaunchCRM newlaunchCRM = new NewlaunchCRM(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -79,16 +78,16 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO FATURAMENTO MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.Faturamento_TAG);
+                NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.TAG);
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeFaturamento newcomposeFaturamento = new NewcomposeFaturamento(manager.Email.ToString(),
-                                                            manager.Faturamento_PORT.ToString(),
+                                                            manager.PORT.ToString(),
                                                             "apeninos/asasaas_odoo:version11.0",
-                                                            manager.Faturamento_TAG);
+                                                            manager.TAG);
 
                 //New Launch
-                NewlaunchFaturamento newlaunchFaturamento = new NewlaunchFaturamento(manager.Email.ToString(), manager.Faturamento_TAG);
+                NewlaunchFaturamento newlaunchFaturamento = new NewlaunchFaturamento(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -99,15 +98,15 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO SITE MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.Site_TAG);
+                NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.TAG);
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeSite newcomposeSite = new NewcomposeSite(manager.Email.ToString(),
-                                              manager.Site_PORT.ToString(),
+                                              manager.PORT.ToString(),
                                               "apeninos/asasaas_odoo:version11.0",
-                                              manager.Site_TAG);
+                                              manager.TAG);
                 //New Launch
-                NewlaunchSite newlaunchSite = new NewlaunchSite(manager.Email.ToString(), manager.Site_TAG);
+                NewlaunchSite newlaunchSite = new NewlaunchSite(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -117,15 +116,15 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO VENDAS MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.Vendas_TAG);
+                NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.TAG);
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeVendas newcomposeVendas = new NewcomposeVendas(manager.Email.ToString(),
-                                                    manager.Vendas_PORT.ToString(),
+                                                    manager.PORT.ToString(),
                                                     "apeninos/asasaas_odoo:version11.0",
-                                                    manager.Vendas_TAG);
+                                                    manager.TAG);
                 //New Launch
-                NewlaunchVendas newlaunchVendas = new NewlaunchVendas(manager.Email.ToString(), manager.Vendas_TAG);
+                NewlaunchVendas newlaunchVendas = new NewlaunchVendas(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -144,16 +143,16 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO CRM MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationCRM newconfigurationCRM = new NewconfigurationCRM(manager.Email.ToString(), manager.Crm_TAG);
+                NewconfigurationCRM newconfigurationCRM = new NewconfigurationCRM(manager.Email.ToString(), manager.TAG);
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeCRM newcomposeCRM = new NewcomposeCRM(manager.Email.ToString(),
-                                            manager.Crm_PORT.ToString(),
+                                            manager.PORT.ToString(),
                                             "apeninos/asasaas_odoo:version11.0",
-                                            manager.Crm_TAG);
+                                            manager.TAG);
                 //New Launch
-                NewlaunchCRM newlaunchCRM = new NewlaunchCRM(manager.Email.ToString(), manager.Crm_TAG);
+                NewlaunchCRM newlaunchCRM = new NewlaunchCRM(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -164,16 +163,16 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO FATURAMENTO MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.Faturamento_TAG);
+                NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.TAG);
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeFaturamento newcomposeFaturamento = new NewcomposeFaturamento(manager.Email.ToString(),
-                                                            manager.Faturamento_PORT.ToString(),
+                                                            manager.PORT.ToString(),
                                                             "apeninos/asasaas_odoo:version11.0",
-                                                            manager.Faturamento_TAG);
+                                                            manager.TAG);
                 //New Launch
-                NewlaunchFaturamento newlaunchFaturamento = new NewlaunchFaturamento(manager.Email.ToString(), manager.Faturamento_TAG);
+                NewlaunchFaturamento newlaunchFaturamento = new NewlaunchFaturamento(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -184,17 +183,17 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO SITE MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.Site_TAG);
+                NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.TAG);
 
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeSite newcomposeSite = new NewcomposeSite(manager.Email.ToString(),
-                                                manager.Site_PORT.ToString(),
+                                                manager.PORT.ToString(),
                                                 "apeninos/asasaas_odoo:version11.0",
-                                                manager.Site_TAG);
+                                                manager.TAG);
                 //New Launch
-                NewlaunchSite newlaunchSite = new NewlaunchSite(manager.Email.ToString(), manager.Site_TAG);
+                NewlaunchSite newlaunchSite = new NewlaunchSite(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
@@ -204,16 +203,16 @@ namespace Api.Service.Services
                 //-----------------------------------------------------------
                 //New LAUNCH TO VENDAS MODULE
                 //Odoo Configuration (Logfile & Conf)
-                NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.Vendas_TAG);
+                NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.TAG);
 
                 //Image: apeninos / asasaas_odoo:version11.0
                 //Compose Configuration
                 NewcomposeVendas newcomposeVendas = new NewcomposeVendas(manager.Email.ToString(),
-                                                    manager.Vendas_PORT.ToString(),
+                                                    manager.PORT.ToString(),
                                                     "apeninos/asasaas_odoo:version11.0",
-                                                    manager.Vendas_TAG);
+                                                    manager.TAG);
                 //New Launch
-                NewlaunchVendas newlaunchVendas = new NewlaunchVendas(manager.Email.ToString(), manager.Vendas_TAG);
+                NewlaunchVendas newlaunchVendas = new NewlaunchVendas(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 
