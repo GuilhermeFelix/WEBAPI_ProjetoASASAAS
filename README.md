@@ -104,14 +104,18 @@ cd /etc/httpd/conf.d
 Create the host configuration file
 sudo vim webapimanager.conf
 
+..................................................................
 The file must have the structure:
+
 <VIRTUAL HOST *: 80>
-ProxyPreserveHost On
-ProxyPass / http://127.0.0.1/16000/
-ProxyPassReverse / http://127.0.0.1:53000/
-ErrorLog /var/log/httpd/hellomvc-error.log
-CustomLog /var/log/httpd/hellomvc-access.log common
+ ProxyPreserveHost On
+ ProxyPass / http://127.0.0.1/16000/
+ ProxyPassReverse / http://127.0.0.1:53000/
+ ErrorLog /var/log/httpd/hellomvc-error.log
+ CustomLog /var/log/httpd/hellomvc-access.log common
 </VirtualHost>
+..................................................................
+
 
 After making the configuration, save and close the file.
 
@@ -156,15 +160,18 @@ Create the host configuration file
 sudo vim Apache2Proxy.conf
 
 The file must have the structure:
+
+.......................................................................
 <VirtualHost *: 80>
-
- ErrorLog $ {APACHE_LOG_DIR} /error.log
- CustomLog $ {APACHE_LOG_DIR} /access.log combined
- ProxyPreserveHost On
- ProxyPass / http://127.0.0.1/16000/
- ProxyPassReverse / http://127.0.0.1:53000/
-
+  ErrorLog $ {APACHE_LOG_DIR} /error.log
+  CustomLog $ {APACHE_LOG_DIR} /access.log combined
+  ProxyPreserveHost On
+  ProxyPass / http://127.0.0.1/16000/
+  ProxyPassReverse / http://127.0.0.1:53000/
 </VirtualHost>
+........................................................................
+
+
 
 After making the configuration, save and close the file.
 
@@ -185,6 +192,6 @@ Test the configuration:
 cd / etc / apache2
 apache2ctl configtest
 
-AFTER CONFIGURING THE HOST 5000 DOOR IT IS ALREADY POSSIBLE TO ACCESS WEBAPI VIA BROWSER REMOTE.
+AFTER CONFIGURING THE HOST 5000 DOOR IT IS ALREADY POSSIBLE TO ACCESS WEBAPI IN BROWSER REMOTE.
 
 To do this, access the Publish folder, Pause the APACHE2 execution, run the dotnet pointing to the published application and then immediately restart the Apache2 Service.
