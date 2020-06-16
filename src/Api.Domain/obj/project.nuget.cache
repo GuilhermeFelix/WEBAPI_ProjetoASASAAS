@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "soNLQ04E/3kT8SP4v+Pn3rUDe/PIv3VKalxgaKTsUrj4o/6vGiqdGiEK/cqD9KfBqXMrJlHbilAUypBinCr2Yw==",
+  "dgSpecHash": "L7/YvQSAoo5lf7dFwip4pSKlp4qCuC8Nch7Sddd+V62rSWE1d1y8xt1uBVdMrkXs+gJz78EAIKik01THigfwfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ExpandFlow - Dados\\Desktop\\16062020\\master\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "/home/guilherme/Área de Trabalho/17062020_Odoo/master/src/Api.Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

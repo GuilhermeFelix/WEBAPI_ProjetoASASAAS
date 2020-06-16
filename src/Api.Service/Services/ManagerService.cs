@@ -5,19 +5,10 @@ using Api.Domain.Entities;
 using Api.Domain.Interfaces;
 using Api.Domain.Interfaces.Services.Manager;
 using Api.Service.Services.Odoo.Configuration.New.CRM;
-using Api.Service.Services.Odoo.Configuration.New.Faturamento;
-using Api.Service.Services.Odoo.Configuration.New.Site;
-using Api.Service.Services.Odoo.Configuration.New.Vendas;
 using Api.Service.Services.Odoo.Docker.Compose.New.CRM;
-using Api.Service.Services.Odoo.Docker.Compose.New.Faturamento;
-using Api.Service.Services.Odoo.Docker.Compose.New.Site;
-using Api.Service.Services.Odoo.Docker.Compose.New.Vendas;
 using Api.Service.Services.Odoo.Docker.Launch.CRM;
-using Api.Service.Services.Odoo.Docker.Launch.Faturamento;
-using Api.Service.Services.Odoo.Docker.Launch.Site;
-using Api.Service.Services.Odoo.Docker.Launch.Vendas;
 using System.Net;
-using Api.Service.Services.Odoo.Docker.Delete;
+using Api.Service.Services.Odoo.Docker.Delete.CRM;
 
 namespace Api.Service.Services
 {
@@ -33,7 +24,10 @@ namespace Api.Service.Services
         public async Task<bool> Delete(Guid id)
         {
             var instancia = await _repository2.SelectAsync(id);
-            StartDeleteSAAS deleteSAAS = new StartDeleteSAAS(instancia.Email, instancia.TAG);
+
+            //Delete Odoo in system
+            FiletodeleteCRM filetodeleteCRM = new FiletodeleteCRM(instancia.Email, instancia.TAG);
+
             return await _repository2.DeleteAsync(id);
         }
 
@@ -71,63 +65,6 @@ namespace Api.Service.Services
             }
             #endregion
 
-            #region FATURAMENTO IMPLEMENTATION
-
-            if (manager.Faturamento_START == true)
-            {
-                //-----------------------------------------------------------
-                //New LAUNCH TO FATURAMENTO MODULE
-                //Odoo Configuration (Logfile & Conf)
-                NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.TAG);
-                //Image: apeninos / asasaas_odoo:version11.0
-                //Compose Configuration
-                NewcomposeFaturamento newcomposeFaturamento = new NewcomposeFaturamento(manager.Email.ToString(),
-                                                            manager.PORT.ToString(),
-                                                            "apeninos/asasaas_odoo:version11.0",
-                                                            manager.TAG);
-
-                //New Launch
-                NewlaunchFaturamento newlaunchFaturamento = new NewlaunchFaturamento(manager.Email.ToString(), manager.TAG);
-            }
-            #endregion
-
-            #region SITE IMPLEMENTATION
-
-            if (manager.Site_START == true)
-            {
-                //-----------------------------------------------------------
-                //New LAUNCH TO SITE MODULE
-                //Odoo Configuration (Logfile & Conf)
-                NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.TAG);
-                //Image: apeninos / asasaas_odoo:version11.0
-                //Compose Configuration
-                NewcomposeSite newcomposeSite = new NewcomposeSite(manager.Email.ToString(),
-                                              manager.PORT.ToString(),
-                                              "apeninos/asasaas_odoo:version11.0",
-                                              manager.TAG);
-                //New Launch
-                NewlaunchSite newlaunchSite = new NewlaunchSite(manager.Email.ToString(), manager.TAG);
-            }
-            #endregion
-
-            #region VENDAS IMPLEMENTATION
-            if (manager.Vendas_START == true)
-            {
-                //-----------------------------------------------------------
-                //New LAUNCH TO VENDAS MODULE
-                //Odoo Configuration (Logfile & Conf)
-                NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.TAG);
-                //Image: apeninos / asasaas_odoo:version11.0
-                //Compose Configuration
-                NewcomposeVendas newcomposeVendas = new NewcomposeVendas(manager.Email.ToString(),
-                                                    manager.PORT.ToString(),
-                                                    "apeninos/asasaas_odoo:version11.0",
-                                                    manager.TAG);
-                //New Launch
-                NewlaunchVendas newlaunchVendas = new NewlaunchVendas(manager.Email.ToString(), manager.TAG);
-            }
-            #endregion
-
             return repository2up;
         }
 
@@ -153,66 +90,6 @@ namespace Api.Service.Services
                                             manager.TAG);
                 //New Launch
                 NewlaunchCRM newlaunchCRM = new NewlaunchCRM(manager.Email.ToString(), manager.TAG);
-            }
-            #endregion
-
-            #region FATURAMENTO IMPLEMENTATION
-
-            if (manager.Faturamento_START == true)
-            {
-                //-----------------------------------------------------------
-                //New LAUNCH TO FATURAMENTO MODULE
-                //Odoo Configuration (Logfile & Conf)
-                NewconfigurationFaturamento newconfigurationFaturamento = new NewconfigurationFaturamento(manager.Email.ToString(), manager.TAG);
-
-                //Image: apeninos / asasaas_odoo:version11.0
-                //Compose Configuration
-                NewcomposeFaturamento newcomposeFaturamento = new NewcomposeFaturamento(manager.Email.ToString(),
-                                                            manager.PORT.ToString(),
-                                                            "apeninos/asasaas_odoo:version11.0",
-                                                            manager.TAG);
-                //New Launch
-                NewlaunchFaturamento newlaunchFaturamento = new NewlaunchFaturamento(manager.Email.ToString(), manager.TAG);
-            }
-            #endregion
-
-            #region SITE IMPLEMENTATION
-
-            if (manager.Site_START == true)
-            {
-                //-----------------------------------------------------------
-                //New LAUNCH TO SITE MODULE
-                //Odoo Configuration (Logfile & Conf)
-                NewconfigurationSite newconfigurationSite = new NewconfigurationSite(manager.Email.ToString(), manager.TAG);
-
-
-                //Image: apeninos / asasaas_odoo:version11.0
-                //Compose Configuration
-                NewcomposeSite newcomposeSite = new NewcomposeSite(manager.Email.ToString(),
-                                                manager.PORT.ToString(),
-                                                "apeninos/asasaas_odoo:version11.0",
-                                                manager.TAG);
-                //New Launch
-                NewlaunchSite newlaunchSite = new NewlaunchSite(manager.Email.ToString(), manager.TAG);
-            }
-            #endregion
-
-            #region VENDAS IMPLEMENTATION
-            if (manager.Vendas_START == true)
-            {
-                //-----------------------------------------------------------
-                //New LAUNCH TO VENDAS MODULE
-                //Odoo Configuration (Logfile & Conf)
-                NewconfigurationVendas newconfigurationVendas = new NewconfigurationVendas(manager.Email.ToString(), manager.TAG);
-
-                //Image: apeninos / asasaas_odoo:version11.0
-                //Compose Configuration
-                NewcomposeVendas newcomposeVendas = new NewcomposeVendas(manager.Email.ToString(),
-                                                    manager.PORT.ToString(),
-                                                    "apeninos/asasaas_odoo:version11.0",
-                                                    manager.TAG);
-                //New Launch
-                NewlaunchVendas newlaunchVendas = new NewlaunchVendas(manager.Email.ToString(), manager.TAG);
             }
             #endregion
 

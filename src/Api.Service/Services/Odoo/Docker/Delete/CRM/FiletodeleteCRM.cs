@@ -2,51 +2,45 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-using Api.Service.Services.Odoo.Docker.Delete.CRM;
 
-namespace Api.Service.Services.Odoo.Docker.Launch.CRM
+namespace Api.Service.Services.Odoo.Docker.Delete.CRM
 {
-    public class NewlaunchCRM
+    public class FiletodeleteCRM
     {
         private string basePath = @"/Odoo";
         private string nomeArquivo;
         private string customerEmail;
         private string configPath;
         private string customerTag;
-        public NewlaunchCRM(string CustomerEmail, string CustomerTag)
+
+        public FiletodeleteCRM(string CustomerEmail, string CustomerTag)
         {
             this.customerEmail = ((CustomerEmail.Replace("-", "0")).Replace("_", "-").Replace(".", "-")).Replace("@", "-");
             this.customerTag = CustomerTag;
-            NewSAAS();
+            DeleteSAAS();
         }
 
-        private void NewSAAS()
+        private void DeleteSAAS()
         {
 
-            //script para executar uma nova instancia
+            //script para excluir uma instancia
             configPath = Path.GetFullPath(basePath).Substring(0, 5) + @"/" + customerEmail + @"/CRM/" + customerEmail + "_" + customerTag;
-
-            System.IO.Directory.CreateDirectory(configPath);
-
-            nomeArquivo = configPath + @"/odoo11_install.sh";
+            nomeArquivo = configPath + @"/odoo11_delete.sh";
             StreamWriter writer = new StreamWriter(nomeArquivo);
             writer.WriteLine("#!/bin/bash");
-            writer.WriteLine(":" + char.ConvertFromUtf32(0x0027));
-            writer.WriteLine("++++++++++++++++++++++++++++++++++++++");
-            writer.WriteLine("APENINOS SOFTWARE");
-            writer.WriteLine("CUSTOMER INSTANCE: " + customerEmail);
-            writer.WriteLine("______________________________________");
-            writer.WriteLine(char.ConvertFromUtf32(0x0027));
-            writer.WriteLine("cd " + configPath);
-            writer.WriteLine("sudo apt-get update -y");
-            writer.WriteLine("docker-compose up");
+            writer.WriteLine("#++++++++++++++++++++++++++++++++++++++");
+            writer.WriteLine("#APENINOS SOFTWARE");
+            writer.WriteLine("#DELETE CUSTOMER INSTANCE: " + customerEmail);
+            writer.WriteLine("#______________________________________");
+            var nomecontainer = customerEmail + customerTag;
+            nomecontainer = nomecontainer.Replace("-", "");
+            writer.WriteLine("set +e");
+            writer.WriteLine("docker container rm -f " + nomecontainer + "_odoo11_1 || true"); //remove container odoo
+            writer.WriteLine("docker container rm -f " + nomecontainer + "_db_1 || true"); //remove container postgree
+            writer.WriteLine("docker network rm " + nomecontainer + "_default || true"); //remove network        
             writer.Close();
-
-            //new Thread(new ThreadStart(opensh)).Start();
             opensh();
-
         }
-
         public void opensh()
         {
             try
@@ -64,12 +58,11 @@ namespace Api.Service.Services.Odoo.Docker.Launch.CRM
                 var outPut = process.StandardOutput.ReadToEnd();
                 process.WaitForExit();
             }
-            catch (Exception error)
+            catch (Exception)
             {
-                var texto = error;
+                return;
             }
 
         }
-
     }
 }
