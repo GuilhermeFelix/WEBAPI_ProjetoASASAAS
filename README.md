@@ -1,4 +1,4 @@
-# ODOO ASASAAS
+#ASASAAS
 # managererp This is the repository for an ERP instance manager, that will be available on AWS. This manager is being built in C # .NET Core and Blazor.
 
 
@@ -6,7 +6,7 @@ ASASAAS PROJECT
 
 The first and most important thing is the current task that results in choosing how all Odoo instances will be managed ...
 
-In this task I am implementing Odoo inside containers.
+In this task I am implementing Openerp inside containers.
 To separate the instances of each customer / service within the EC2 instance.
 
 Basically the client accesses the amazon DNS. and is redirected to the specific port that the container will be allocated to.
@@ -66,7 +66,7 @@ In the next step, remembering that the image destined for the ERP is in a privat
 
 $ DOCKER LOGIN
 
-Run the creation of Odoo instances as AS A SAAS with the command:
+Run the creation of OpenErp instances as AS A SAAS with the command:
 
 $ DOCKER-COMPOSE use
 
